@@ -1,19 +1,18 @@
 console.log("Calculator")
 
-let value1 = prompt("What is your value?")
-let value2 = prompt("What is your value?")
+let operation = prompt("What operation will you use? +,-,/,*,")
+let value1 = parseFloat(prompt("What is your first value?"))
+let value2 = parseFloat(prompt("What is your second value?"))
 
-let operation = ("What operation are you using?")
-
-if (operation = "+") {
-    addition(value1 + value2) 
-}
-if (operation = "-"){
-    subtraction(value1 - value2)
-}
-if (operation = "/"){
-    division(value1 / value2)
-}
-if (operation = "*"){
-    multiplication(value1 * value2)
+ if (operation == "+") {
+   
+    console.log(value1 + value2) 
+} else if (operation == "-"){
+    
+    console.log(value1 - value2)
+} else if (operation =="/"){
+    
+    console.log(value1 / value2)
+} else if (operation == "*"){
+    console.log(value1 * value2)
 }
